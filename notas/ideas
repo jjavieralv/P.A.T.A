@@ -1,0 +1,18 @@
+#Ideas futuras
+
+## Deteccion nerviosa
+### Estado: no implementado
+Entrenar una IA para poder generar un output a los motores dependiondo de los estimulos que les llegen a partid de ectores del sistema nervioso. Esto se podría lograr o poniendo unos sensores en la cabeza y controlando unos movimientos básicos grácias a estos(tipo alante, atrás...). O de una manera más precisa usando los impulsos nerviosos que se mandan a los músclos para moverse. El priblema de esto ultumo es que solo lo podían utilizar las personas con un sistema nervioso (y posiblemente muscular) lo suficientemente funcional. La otra opción es enlazar los impulsos del sistema nervioso de una parte digerente del cuerpo y suarlos para controlar los de las piernas. Por ejemplo usando los impulsos que se mandan a un brazo para controlar como va a moverse el sistema motor inferior. Acerca de esto ya hay otras ideas parecidas.
+
+## Lectura de movimiento personal
+### Estado: no implementado
+Usar los sensores incorporados en el isstema para poder generar datos de movimiento. Estos datos luego serán utilizados para generar patrones de comportamiento que serán usaros para que el movimiento se ajuste a la persona. Esto mola por el punto en el que lo que se esta recopilando son los datos biometricos de la persona, los cuales podrían ser usados para simular el movimiento de esa persona y con ello poder pasar los controles biométricos de cámaras como las usadas en algunos sistemas de videovigilancia, jejeje el mal siempre acecha.
+
+## Mapas motor
+### Estado: no implementado
+Al igual que se usan en la competición, dependiendo de la situación el sistema debería comportarse de una manera y otra. Por ejemplo, no es lo mismo estar dando un paseo que subiendo unas escaleras o levantandose de un asiento. Por ello cada situación tiene unos requerimientos. Saber en que situación se encuentra para elegir el mehor mapa posible, es algo que se podría hacer leyendo los sensores, Aaunque también en ciertas situaciones srá necesario un imput especifico para evitar falsas detecciones. Esto ya que aunque sría gracioso que alguien intente sibir unas escaleras imaginarias debido a que es lo que ha detectado el imput para esa situación, mejor si optamos por algo más funcional, aunque tenga que tener un imput manual (por el momento)
+
+## Lectura de datos biometricos
+### Estado: no implementado
+Unos pocos sensores que te digan el angulo en el que se encuentran las articulaciones, acelerómetros, giróscompos... Será información increiblemente util a la hora de generar modelos de comportamiento y funcionalidad. Esto debido a que podemos comparar el imput de estos sensores con el resultado esperado de ejecutar esas acciones en los motores y con ello poder ahustasr para lograr una salida lo más cerncana posible a la esperada.
+
